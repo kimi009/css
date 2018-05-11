@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>关于我们</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrap {
+      background-color: #FFF;
+    }
+
+    .title {
+      vertical-align: middle;
+    }
+
+    /* input[type="checkbox"]+label::before {
+      content: '\2610';
+      display: inline-block;
+      vertical-align: 0px;
+      width: 20px;
+      height: 20px;
+      margin-top: 10px;
+      margin-right: 4px;
+      border-radius: 4px;
+      background-color: #FFF;
+      text-indent: 60px;
+      line-height: 20px;
+    }
+
+    input[type="checkbox"]:checked+label::after {
+      content: '\2611';
+      background-color: #F00;
+    }
+
+    input[type="checkbox"] {
+      position: absolute;
+      clip: rect(0, 0, 0, 0);
+    } */
+
+    /* .checkbox-wrap {
+      width: 90%;
+      position: relative;
+      margin: 0 auto;
+      top: 30%;
+      height: 40%;
+      background-color: white;
+    } */
+
+    input[type="checkbox"] {
+      /* width: 40px; */
+      /* height: 40px; */
+      /* -webkit-border-radius: 50%; */
+      display: none;
+    }
+
+    /* input[type="checkbox"]+label {
+      display: inline-block;
+      width: 48%;
+      margin-top: 10px;
+      margin-left: 5px;
+      text-align: left;
+      -webkit-box-sizing: border-box;
+    } */
+
+    label[class="title"]::before {
+      content: "";
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: #EEE;
+      vertical-align: middle;
+      -webkit-border-radius: 50%;
+      margin-right: 5px;
+      /* -webkit-box-sizing: border-box;
+      -webkit-transition: background ease-in .5s */
+    }
+
+    input[type="checkbox"]:checked+label[class="title"]::before {
+      background-color: rgb(53, 183, 111);
+      /* border: 5px #EEEEEE solid; */
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- <div class="checkbox-wrap"> -->
+  <input type="checkbox" value="guangpan" name="choose" id="guangpan">
+  <label class="title" for="guangpan">努力光盘</label>
+  <!-- </div> -->
+  <!-- <div class="wrap"> -->
+  <!-- <input type="checkbox" id="awesome">
+    <label for="awesome">测试</label> -->
+</body>
+<script src=""></script>
+<script>
+
+
+</script>
+
+</html>
